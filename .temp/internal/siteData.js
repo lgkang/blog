@@ -5,7 +5,16 @@ export const siteData = {
   "title": "李皮皮技术博客",
   "description": "我的程序永远不会有bug，那些只是开发出来的随机的功能特征",
   "base": "/blog/",
+  "headTags": [],
   "pages": [
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/router/",
+      "relativePath": "router/README.md",
+      "key": "v-df77a4b6",
+      "path": "/router/"
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -53,31 +62,55 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-9409de3a",
+      "key": "v-e6a9a73c",
       "path": "/"
     },
     {
-      "title": "介绍",
+      "title": "测试案例1",
       "frontmatter": {},
-      "regularPath": "/router/",
-      "relativePath": "router/README.md",
-      "key": "v-75859c66",
-      "path": "/router/"
+      "regularPath": "/router/base/test1.html",
+      "relativePath": "router/base/test1.md",
+      "key": "v-8be8310e",
+      "path": "/router/base/test1.html"
     },
     {
       "title": "测试案例2",
       "frontmatter": {},
       "regularPath": "/router/base/test2.html",
       "relativePath": "router/base/test2.md",
-      "key": "v-ed5f7f10",
+      "key": "v-15dc5e4e",
       "path": "/router/base/test2.html"
+    },
+    {
+      "title": "测试案例4",
+      "frontmatter": {},
+      "regularPath": "/router/base/test4.html",
+      "relativePath": "router/base/test4.md",
+      "key": "v-6b1da399",
+      "path": "/router/base/test4.html"
+    },
+    {
+      "title": "测试案例3",
+      "frontmatter": {},
+      "regularPath": "/router/base/test3.html",
+      "relativePath": "router/base/test3.md",
+      "key": "v-3017ba39",
+      "path": "/router/base/test3.html"
+    },
+    {
+      "title": "一些 react 上的坑总结",
+      "frontmatter": {},
+      "regularPath": "/router/react-native/keng.html",
+      "relativePath": "router/react-native/keng.md",
+      "key": "v-14a24857",
+      "path": "/router/react-native/keng.html"
     },
     {
       "title": "进阶技能",
       "frontmatter": {},
       "regularPath": "/router/react/advance.html",
       "relativePath": "router/react/advance.md",
-      "key": "v-6ec65cc6",
+      "key": "v-5b4f3f32",
       "path": "/router/react/advance.html",
       "headers": [
         {
@@ -88,58 +121,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "测试案例1",
-      "frontmatter": {},
-      "regularPath": "/router/base/test1.html",
-      "relativePath": "router/base/test1.md",
-      "key": "v-4e4a5718",
-      "path": "/router/base/test1.html"
-    },
-    {
-      "title": "测试案例4",
-      "frontmatter": {},
-      "regularPath": "/router/base/test4.html",
-      "relativePath": "router/base/test4.md",
-      "key": "v-0147d990",
-      "path": "/router/base/test4.html"
-    },
-    {
-      "title": "测试案例3",
-      "frontmatter": {},
-      "regularPath": "/router/base/test3.html",
-      "relativePath": "router/base/test3.md",
-      "key": "v-7753ac50",
-      "path": "/router/base/test3.html"
-    },
-    {
       "title": "一些 react 上的坑总结",
       "frontmatter": {},
       "regularPath": "/router/react/keng.html",
       "relativePath": "router/react/keng.md",
-      "key": "v-6cc0e312",
+      "key": "v-4efb191a",
       "path": "/router/react/keng.html"
-    },
-    {
-      "title": "进阶技能",
-      "frontmatter": {},
-      "regularPath": "/router/vue/advance.html",
-      "relativePath": "router/vue/advance.md",
-      "key": "v-0b92bf10",
-      "path": "/router/vue/advance.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue 的进阶技能的使用及在业务中的应用",
-          "slug": "vue-的进阶技能的使用及在业务中的应用"
-        }
-      ]
     },
     {
       "title": "react-router",
       "frontmatter": {},
       "regularPath": "/router/react/react-router.html",
       "relativePath": "router/react/react-router.md",
-      "key": "v-3f6deb92",
+      "key": "v-266c99f3",
       "path": "/router/react/react-router.html",
       "headers": [
         {
@@ -150,27 +144,34 @@ export const siteData = {
       ]
     },
     {
+      "title": "进阶技能",
+      "frontmatter": {},
+      "regularPath": "/router/react-native/advance.html",
+      "relativePath": "router/react-native/advance.md",
+      "key": "v-d6faa5ce",
+      "path": "/router/react-native/advance.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-native 的进阶技能的使用及在业务中的应用",
+          "slug": "react-native-的进阶技能的使用及在业务中的应用"
+        }
+      ]
+    },
+    {
       "title": "redux",
       "frontmatter": {},
       "regularPath": "/router/react/redux.html",
       "relativePath": "router/react/redux.md",
-      "key": "v-d206563c",
+      "key": "v-189bd103",
       "path": "/router/react/redux.html"
-    },
-    {
-      "title": "一些 vue 上的坑总结",
-      "frontmatter": {},
-      "regularPath": "/router/vue/keng.html",
-      "relativePath": "router/vue/keng.md",
-      "key": "v-8e2fbe9c",
-      "path": "/router/vue/keng.html"
     },
     {
       "title": "axios",
       "frontmatter": {},
       "regularPath": "/router/vue/axios.html",
       "relativePath": "router/vue/axios.md",
-      "key": "v-14857750",
+      "key": "v-0e81abf1",
       "path": "/router/vue/axios.html"
     },
     {
@@ -178,7 +179,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/router/vue/vue-router.html",
       "relativePath": "router/vue/vue-router.md",
-      "key": "v-b6dddadc",
+      "key": "v-6bb0b1f3",
       "path": "/router/vue/vue-router.html",
       "headers": [
         {
@@ -189,11 +190,49 @@ export const siteData = {
       ]
     },
     {
+      "title": "进阶技能",
+      "frontmatter": {},
+      "regularPath": "/router/vue/advance.html",
+      "relativePath": "router/vue/advance.md",
+      "key": "v-7bd59c99",
+      "path": "/router/vue/advance.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue 的进阶技能的使用及在业务中的应用",
+          "slug": "vue-的进阶技能的使用及在业务中的应用"
+        }
+      ]
+    },
+    {
+      "title": "react-navigation",
+      "frontmatter": {},
+      "regularPath": "/router/react-native/react-navigation.html",
+      "relativePath": "router/react-native/react-navigation.md",
+      "key": "v-31fea479",
+      "path": "/router/react-native/react-navigation.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-navigation 常用的 api 及其在业务中的小技巧",
+          "slug": "react-navigation-常用的-api-及其在业务中的小技巧"
+        }
+      ]
+    },
+    {
+      "title": "一些 vue 上的坑总结",
+      "frontmatter": {},
+      "regularPath": "/router/vue/keng.html",
+      "relativePath": "router/vue/keng.md",
+      "key": "v-2bfb0993",
+      "path": "/router/vue/keng.html"
+    },
+    {
       "title": "vuex",
       "frontmatter": {},
       "regularPath": "/router/vue/vuex.html",
       "relativePath": "router/vue/vuex.md",
-      "key": "v-7b738f12",
+      "key": "v-22f3101a",
       "path": "/router/vue/vuex.html"
     }
   ],
@@ -274,6 +313,34 @@ export const siteData = {
               "children": [
                 "react/react-router",
                 "react/react-redux"
+              ]
+            },
+            {
+              "title": "react组件",
+              "collapsable": true,
+              "children": [
+                "react/base"
+              ]
+            },
+            "react/keng"
+          ]
+        },
+        {
+          "title": "react-native",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "react-native",
+              "collapsable": true,
+              "children": [
+                "react-native/advance"
+              ]
+            },
+            {
+              "title": "react其生态库的使用",
+              "collapsable": true,
+              "children": [
+                "react-native/react-navigation"
               ]
             },
             {
