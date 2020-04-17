@@ -7,9 +7,42 @@ export const siteData = {
   "base": "/blog/",
   "pages": [
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/router/",
+      "relativePath": "router/README.md",
+      "key": "v-75859c66",
+      "path": "/router/"
+    },
+    {
+      "title": "测试案例1",
+      "frontmatter": {},
+      "regularPath": "/router/base/test1.html",
+      "relativePath": "router/base/test1.md",
+      "key": "v-4e4a5718",
+      "path": "/router/base/test1.html"
+    },
+    {
+      "title": "测试案例2",
+      "frontmatter": {},
+      "regularPath": "/router/base/test2.html",
+      "relativePath": "router/base/test2.md",
+      "key": "v-ed5f7f10",
+      "path": "/router/base/test2.html"
+    },
+    {
+      "title": "测试案例3",
+      "frontmatter": {},
+      "regularPath": "/router/base/test3.html",
+      "relativePath": "router/base/test3.md",
+      "key": "v-7753ac50",
+      "path": "/router/base/test3.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
-        "home": true,
+        "home": "true,",
+        "heroImage": "/logo.jpg",
         "actionText": "前往 →",
         "actionLink": "/router/",
         "features": [
@@ -57,20 +90,27 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "介绍",
+      "title": "测试案例4",
       "frontmatter": {},
-      "regularPath": "/router/",
-      "relativePath": "router/README.md",
-      "key": "v-75859c66",
-      "path": "/router/"
+      "regularPath": "/router/base/test4.html",
+      "relativePath": "router/base/test4.md",
+      "key": "v-0147d990",
+      "path": "/router/base/test4.html"
     },
     {
-      "title": "测试案例2",
+      "title": "mock 教程",
       "frontmatter": {},
-      "regularPath": "/router/base/test2.html",
-      "relativePath": "router/base/test2.md",
-      "key": "v-ed5f7f10",
-      "path": "/router/base/test2.html"
+      "regularPath": "/router/other/mock.html",
+      "relativePath": "router/other/mock.md",
+      "key": "v-6a841b52",
+      "path": "/router/other/mock.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue-cli3 搭建的 mock",
+          "slug": "vue-cli3-搭建的-mock"
+        }
+      ]
     },
     {
       "title": "进阶技能",
@@ -88,51 +128,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "测试案例1",
-      "frontmatter": {},
-      "regularPath": "/router/base/test1.html",
-      "relativePath": "router/base/test1.md",
-      "key": "v-4e4a5718",
-      "path": "/router/base/test1.html"
-    },
-    {
-      "title": "测试案例4",
-      "frontmatter": {},
-      "regularPath": "/router/base/test4.html",
-      "relativePath": "router/base/test4.md",
-      "key": "v-0147d990",
-      "path": "/router/base/test4.html"
-    },
-    {
-      "title": "测试案例3",
-      "frontmatter": {},
-      "regularPath": "/router/base/test3.html",
-      "relativePath": "router/base/test3.md",
-      "key": "v-7753ac50",
-      "path": "/router/base/test3.html"
-    },
-    {
       "title": "一些 react 上的坑总结",
       "frontmatter": {},
       "regularPath": "/router/react/keng.html",
       "relativePath": "router/react/keng.md",
       "key": "v-6cc0e312",
       "path": "/router/react/keng.html"
-    },
-    {
-      "title": "进阶技能",
-      "frontmatter": {},
-      "regularPath": "/router/vue/advance.html",
-      "relativePath": "router/vue/advance.md",
-      "key": "v-0b92bf10",
-      "path": "/router/vue/advance.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue 的进阶技能的使用及在业务中的应用",
-          "slug": "vue-的进阶技能的使用及在业务中的应用"
-        }
-      ]
     },
     {
       "title": "react-router",
@@ -158,20 +159,20 @@ export const siteData = {
       "path": "/router/react/redux.html"
     },
     {
-      "title": "一些 vue 上的坑总结",
-      "frontmatter": {},
-      "regularPath": "/router/vue/keng.html",
-      "relativePath": "router/vue/keng.md",
-      "key": "v-8e2fbe9c",
-      "path": "/router/vue/keng.html"
-    },
-    {
       "title": "axios",
       "frontmatter": {},
       "regularPath": "/router/vue/axios.html",
       "relativePath": "router/vue/axios.md",
       "key": "v-14857750",
       "path": "/router/vue/axios.html"
+    },
+    {
+      "title": "一些 vue 上的坑总结",
+      "frontmatter": {},
+      "regularPath": "/router/vue/keng.html",
+      "relativePath": "router/vue/keng.md",
+      "key": "v-8e2fbe9c",
+      "path": "/router/vue/keng.html"
     },
     {
       "title": "vue-router",
@@ -185,6 +186,31 @@ export const siteData = {
           "level": 3,
           "title": "vue-router 常用的 api 及其在业务中的小技巧",
           "slug": "vue-router-常用的-api-及其在业务中的小技巧"
+        }
+      ]
+    },
+    {
+      "title": "进阶技能",
+      "frontmatter": {},
+      "regularPath": "/router/vue/advance.html",
+      "relativePath": "router/vue/advance.md",
+      "key": "v-0b92bf10",
+      "path": "/router/vue/advance.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue 的进阶技能的使用及在业务中的应用",
+          "slug": "vue-的进阶技能的使用及在业务中的应用"
+        },
+        {
+          "level": 3,
+          "title": "api 应用系列",
+          "slug": "api-应用系列"
+        },
+        {
+          "level": 3,
+          "title": "优化系列",
+          "slug": "优化系列"
         }
       ]
     },
@@ -292,9 +318,11 @@ export const siteData = {
           "children": []
         },
         {
-          "title": "方法类函数",
+          "title": "其他知识",
           "collapsable": true,
-          "children": []
+          "children": [
+            "other/mock"
+          ]
         }
       ],
       "/knowledge/": [

@@ -9,18 +9,6 @@ import GlobalLayout from "C:\\Program Files\\nodejs\\node_modules\\vuepress\\nod
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-9409de3a",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9409de3a").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-75859c66",
     path: "/router/",
     component: GlobalLayout,
@@ -33,22 +21,6 @@ export const routes = [
     redirect: "/router/"
   },
   {
-    name: "v-ed5f7f10",
-    path: "/router/base/test2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ed5f7f10").then(next)
-    },
-  },
-  {
-    name: "v-6ec65cc6",
-    path: "/router/react/advance.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6ec65cc6").then(next)
-    },
-  },
-  {
     name: "v-4e4a5718",
     path: "/router/base/test1.html",
     component: GlobalLayout,
@@ -57,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-0147d990",
-    path: "/router/base/test4.html",
+    name: "v-ed5f7f10",
+    path: "/router/base/test2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0147d990").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ed5f7f10").then(next)
     },
   },
   {
@@ -73,19 +45,47 @@ export const routes = [
     },
   },
   {
+    name: "v-9409de3a",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9409de3a").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-0147d990",
+    path: "/router/base/test4.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0147d990").then(next)
+    },
+  },
+  {
+    name: "v-6a841b52",
+    path: "/router/other/mock.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a841b52").then(next)
+    },
+  },
+  {
+    name: "v-6ec65cc6",
+    path: "/router/react/advance.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6ec65cc6").then(next)
+    },
+  },
+  {
     name: "v-6cc0e312",
     path: "/router/react/keng.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6cc0e312").then(next)
-    },
-  },
-  {
-    name: "v-0b92bf10",
-    path: "/router/vue/advance.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b92bf10").then(next)
     },
   },
   {
@@ -105,14 +105,6 @@ export const routes = [
     },
   },
   {
-    name: "v-8e2fbe9c",
-    path: "/router/vue/keng.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8e2fbe9c").then(next)
-    },
-  },
-  {
     name: "v-14857750",
     path: "/router/vue/axios.html",
     component: GlobalLayout,
@@ -121,11 +113,27 @@ export const routes = [
     },
   },
   {
+    name: "v-8e2fbe9c",
+    path: "/router/vue/keng.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8e2fbe9c").then(next)
+    },
+  },
+  {
     name: "v-b6dddadc",
     path: "/router/vue/vue-router.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-b6dddadc").then(next)
+    },
+  },
+  {
+    name: "v-0b92bf10",
+    path: "/router/vue/advance.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0b92bf10").then(next)
     },
   },
   {

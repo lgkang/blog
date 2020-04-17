@@ -1,5 +1,6 @@
 ---
-home: true
+home: true,
+heroImage: "/logo.jpg"
 actionText: 前往 →
 actionLink: /router/
 features:
