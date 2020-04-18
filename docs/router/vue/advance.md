@@ -4,6 +4,22 @@
 
 ### api 应用系列
 
+#### render
+vue的整体流程：
+<img :src="$withBase('/images/vue/vue-render1.webp')" alt="foo">
+
+模板：vue基于纯HTML，方面声明数据和UI关系
+AST：AST是Abstract Syntax Tree的简称，Vue使用HTML的Parser将HTML模板解析为AST，并且对AST进行一些优化的标记处理，提取最大的静态树，方便Virtual DOM时直接跳过Diff。
+
+渲染函数：用来生成Virtual DOM的。Vue推荐使用模板来构建我们的应用界面，在底层实现中Vue会将模板编译成渲染函数，当然我们也可以不写模板，直接写渲染函数，以获得更好的控制
+
+Virtual DOM：虚拟DOM树，Vue的Virtual DOM Patching算法是基于Snabbdom的实现，并在些基础上作了很多的调整和改进。
+
+Watcher：每个Vue组件都有一个对应的watcher，这个watcher将会在组件render的时候收集组件所依赖的数据，并在依赖有更新的时候，触发组件重新渲染。你根本不需要写shouldComponentUpdate，Vue会自动优化并更新要更新的UI
+
+使用如下：
+
+
 ### 优化系列
 
 #### 动态组件
@@ -28,9 +44,7 @@ const AsyncComponent = () => ({
 const MyComponent = () => import("../../components/MyComponent");
 ```
 
-产生的问题：
-
-因为组件时异步加载，所以无法在父类 mounted 无法操作组件 dom 或者无法使用 ref
+产生的问题：因为组件时异步加载，所以无法在父类 mounted 无法操作组件 dom 或者无法使用 ref
 
 解决办法：监听组件的生命钩子函数 mounted
 
