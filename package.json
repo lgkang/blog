@@ -5,10 +5,12 @@
     "license": "MIT",
     "scripts": {
         "docs:dev": "vuepress dev docs --temp .temp",
-        "docs:build": "vuepress build docs"
+        "docs:build": "vuepress build docs",
+        "deploy": "node deploy.js"
     },
     "dependencies": {
         "element-ui": "^2.3.7",
+        "gh-pages": "^2.2.0",
         "highlight.js": "^9.12.0",
         "less-loader": "^4.1.0",
         "vue": "^2.5.16",
