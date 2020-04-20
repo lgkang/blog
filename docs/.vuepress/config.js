@@ -6,8 +6,7 @@ module.exports = {
     port: 8888, //端口
     themeConfig: {
         // 添加导航栏
-        nav: [
-          {
+        nav: [{
                 text: "主页",
                 link: "/",
             }, // 导航条
@@ -32,7 +31,7 @@ module.exports = {
                     },
                 ],
             },
-      ],
+        ],
         // 为以下路由添加侧边栏
         sidebar: {
             "/router/": [{
@@ -46,7 +45,7 @@ module.exports = {
                         {
                             title: "vue全家桶进阶使用及源码",
                             collapsable: true,
-                            children: ["vue/vue-router", "vue/vuex", "vue/axios"],
+                            children: ["vue/vue-router", "vue/vuex"],
                         },
                         {
                             title: "vue组件",
@@ -78,37 +77,40 @@ module.exports = {
                     ],
                 },
                 {
-                  title: "react-native",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "react-native",
-                      collapsable: true,
-                      children: ["react-native/advance"],
-                    },
-                    {
-                      title: "react其生态库的使用",
-                      collapsable: true,
-                      children: ["react-native/react-navigation"],
-                    },
-                    {
-                      title: "react组件",
-                      collapsable: true,
-                      children: [],
-                    },
-                    "react/keng",
-                  ],
+                    title: "react-native",
+                    collapsable: true,
+                    children: [{
+                            title: "react-native",
+                            collapsable: true,
+                            children: ["react-native/advance"],
+                        },
+                        {
+                            title: "react其生态库的使用",
+                            collapsable: true,
+                            children: ["react-native/react-navigation"],
+                        },
+                        {
+                            title: "react组件",
+                            collapsable: true,
+                            children: [],
+                        },
+                        "react/keng",
+                    ],
                 },
                 {
-                    title: "工具类组件",
+                    title: "自己轮子",
                     collapsable: true,
-                    children: [],
+                    children: [
+                        'self/verify',
+                        'self/cache',
+                    ],
                 },
                 {
                     title: "其他知识",
                     collapsable: true,
                     children: [
-                        'other/mock'
+                        'other/mock',
+                        'other/axios',
                     ],
                 },
             ],

@@ -159,22 +159,26 @@ render(h) {
 关于指令的用法
 
 ```js
-<ul v-if="items.length">
-    <li v-for="item in items">{{ item }}</li>
-</ul>
-
-<p v-else>No items found.</p>
-//相当于
 const items = (h) => {
   if (this.items.length) {
       return h("ul", this.items.map((item) => {
-                        return h("li", item);
-                    }));
-                } else {
-                    h("p", "No items found.");
-                }
-            };
+                return h("li", item);
+            }));
+    }
+    else {
+        h("p", "No items found.");
+    }
+};
+//相当于
+<ul v-if="items.length">
+    <li v-for="item in items">{{ item }}</li>
+</ul>
+<p v-else>No items found.</p>
 ```
+
+##### jsx: createElement 用法如下：
+
+正在记录
 
 ### 优化系列
 
@@ -205,9 +209,9 @@ const MyComponent = () => import("../../components/MyComponent");
 解决办法：监听组件的生命钩子函数 mounted
 
 ```js
-<MyComponent @hook:mounted="searchLoaded" ref="myComponent"></MyComponent>
+<MyComponent @hook:mounted="myComponentLoaded" ref="myComponent"></MyComponent>
 methods: {
-    searchLoaded() {
+    myComponentLoaded() {
         //操作子组件里面的方法
         console.log(this.$refs.myComponent)
     }
@@ -238,7 +242,7 @@ const addData = [1, 2, 3];
 //已经加载过
 if (showData.length) {
   let tempData = [...this.showData, ...addData];
-  this.showData = Object.freeze(addData);
+  this.showData = Object.freeze(tempData);
 } else {
   this.showData = Object.freeze(addData);
 }
