@@ -1,3 +1,3 @@
-# react-native 解决的坑
+# ts 在 vue 中的使用
 
 ## 暂无记录，待开放

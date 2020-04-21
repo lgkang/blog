@@ -20,16 +20,7 @@ module.exports = {
             },
             {
                 text: "github",
-                // 这里是下拉列表展现形式。
-                items: [{
-                        text: "focus-outside",
-                        link: "https://github.com/TaoXuSheng/focus-outside",
-                    },
-                    {
-                        text: "stylus-converter",
-                        link: "https://github.com/TaoXuSheng/stylus-converter",
-                    },
-                ],
+                link: "https://github.com/lgkang"
             },
         ],
         // 为以下路由添加侧边栏
@@ -37,20 +28,13 @@ module.exports = {
             "/router/": [{
                     title: "vue",
                     collapsable: true,
-                    children: [{
-                            title: "vue进阶技能",
-                            collapsable: true,
-                            children: ["vue/advance"],
-                        },
+                    children: [
+                        "vue/advance",
+                        "vue/component",
                         {
                             title: "vue全家桶进阶使用及源码",
                             collapsable: true,
-                            children: ["vue/vue-router", "vue/vuex"],
-                        },
-                        {
-                            title: "vue组件",
-                            collapsable: true,
-                            children: [],
+                            children: ["vue/vue-router", "vue/vuex", "vue/vue3.0"],
                         },
                         "vue/keng",
                     ],
@@ -58,13 +42,10 @@ module.exports = {
                 {
                     title: "react",
                     collapsable: true,
-                    children: [{
-                            title: "reac进阶技能",
-                            collapsable: true,
-                            children: ["react/advance"],
-                        },
+                    children: [
+                        "react/advance",
                         {
-                            title: "react其生态库的使用",
+                            title: "react生态库",
                             collapsable: true,
                             children: ["react/react-router", "react/react-redux"],
                         },
@@ -79,11 +60,8 @@ module.exports = {
                 {
                     title: "react-native",
                     collapsable: true,
-                    children: [{
-                            title: "react-native",
-                            collapsable: true,
-                            children: ["react-native/advance"],
-                        },
+                    children: [
+                        "react-native/advance",
                         {
                             title: "react其生态库的使用",
                             collapsable: true,
@@ -98,21 +76,40 @@ module.exports = {
                     ],
                 },
                 {
+                    title: "typeScript",
+                    collapsable: true,
+                    children: [
+                        "ts/vue",
+                        "ts/react",
+                        "ts/advance",
+                    ],
+                },
+                {
+                    title: "webpack",
+                    collapsable: true,
+                    children: [
+                        "webpack/vue-cli3",
+                        "webpack/create-react-app"
+                    ],
+                },
+                {
                     title: "自己轮子",
                     collapsable: true,
                     children: [
                         'self/verify',
                         'self/cache',
+                        'self/vuex-keep-data'
                     ],
                 },
                 {
-                    title: "其他知识",
+                    title: "优秀轮子进阶",
                     collapsable: true,
                     children: [
                         'other/mock',
                         'other/axios',
                     ],
                 },
+                'myComponent/ui'
             ],
             "/knowledge/": [{
                     title: "CSS知识库",
