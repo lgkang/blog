@@ -7,6 +7,60 @@ export const siteData = {
   "base": "/blog/",
   "pages": [
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/router/",
+      "relativePath": "router/README.md",
+      "key": "v-75859c66",
+      "path": "/router/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "相逢何必曾相识，客官别走，待我一一记录",
+          "slug": "相逢何必曾相识，客官别走，待我一一记录"
+        }
+      ]
+    },
+    {
+      "title": "测试案例2",
+      "frontmatter": {},
+      "regularPath": "/router/base/test2.html",
+      "relativePath": "router/base/test2.md",
+      "key": "v-ed5f7f10",
+      "path": "/router/base/test2.html"
+    },
+    {
+      "title": "测试案例4",
+      "frontmatter": {},
+      "regularPath": "/router/base/test4.html",
+      "relativePath": "router/base/test4.md",
+      "key": "v-0147d990",
+      "path": "/router/base/test4.html"
+    },
+    {
+      "title": "自己的 ui 组件库",
+      "frontmatter": {},
+      "regularPath": "/router/myComponent/ui.html",
+      "relativePath": "router/myComponent/ui.md",
+      "key": "v-70766572",
+      "path": "/router/myComponent/ui.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "方案没落实，待开放",
+          "slug": "方案没落实，待开放"
+        }
+      ]
+    },
+    {
+      "title": "测试案例3",
+      "frontmatter": {},
+      "regularPath": "/router/base/test3.html",
+      "relativePath": "router/base/test3.md",
+      "key": "v-7753ac50",
+      "path": "/router/base/test3.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": "true,",
@@ -66,41 +120,32 @@ export const siteData = {
       "path": "/router/base/test1.html"
     },
     {
-      "title": "测试案例2",
+      "title": "react-native 解决的坑",
       "frontmatter": {},
-      "regularPath": "/router/base/test2.html",
-      "relativePath": "router/base/test2.md",
-      "key": "v-ed5f7f10",
-      "path": "/router/base/test2.html"
-    },
-    {
-      "title": "测试案例4",
-      "frontmatter": {},
-      "regularPath": "/router/base/test4.html",
-      "relativePath": "router/base/test4.md",
-      "key": "v-0147d990",
-      "path": "/router/base/test4.html"
-    },
-    {
-      "title": "测试案例3",
-      "frontmatter": {},
-      "regularPath": "/router/base/test3.html",
-      "relativePath": "router/base/test3.md",
-      "key": "v-7753ac50",
-      "path": "/router/base/test3.html"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/router/",
-      "relativePath": "router/README.md",
-      "key": "v-75859c66",
-      "path": "/router/",
+      "regularPath": "/router/react-native/keng.html",
+      "relativePath": "router/react-native/keng.md",
+      "key": "v-56b975b6",
+      "path": "/router/react-native/keng.html",
       "headers": [
         {
           "level": 2,
-          "title": "相逢何必曾相识，客官别走，待我一一记录",
-          "slug": "相逢何必曾相识，客官别走，待我一一记录"
+          "title": "暂无记录，待开放",
+          "slug": "暂无记录，待开放"
+        }
+      ]
+    },
+    {
+      "title": "react-navigation",
+      "frontmatter": {},
+      "regularPath": "/router/react-native/react-navigation.html",
+      "relativePath": "router/react-native/react-navigation.md",
+      "key": "v-2ae93650",
+      "path": "/router/react-native/react-navigation.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-navigation 常用的 api 及其在业务中的小技巧",
+          "slug": "react-navigation-常用的-api-及其在业务中的小技巧"
         }
       ]
     },
@@ -130,143 +175,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "mock 教程",
-      "frontmatter": {},
-      "regularPath": "/router/other/mock.html",
-      "relativePath": "router/other/mock.md",
-      "key": "v-6a841b52",
-      "path": "/router/other/mock.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue-cli3 搭建的 mock",
-          "slug": "vue-cli3-搭建的-mock"
-        }
-      ]
-    },
-    {
-      "title": "进阶技能",
-      "frontmatter": {},
-      "regularPath": "/router/react-native/advance.html",
-      "relativePath": "router/react-native/advance.md",
-      "key": "v-7997d190",
-      "path": "/router/react-native/advance.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "react-native 的进阶技能的使用及在业务中的应用",
-          "slug": "react-native-的进阶技能的使用及在业务中的应用"
-        }
-      ]
-    },
-    {
-      "title": "react-navigation",
-      "frontmatter": {},
-      "regularPath": "/router/react-native/react-navigation.html",
-      "relativePath": "router/react-native/react-navigation.md",
-      "key": "v-2ae93650",
-      "path": "/router/react-native/react-navigation.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "react-navigation 常用的 api 及其在业务中的小技巧",
-          "slug": "react-navigation-常用的-api-及其在业务中的小技巧"
-        }
-      ]
-    },
-    {
-      "title": "自己的 ui 组件库",
-      "frontmatter": {},
-      "regularPath": "/router/myComponent/ui.html",
-      "relativePath": "router/myComponent/ui.md",
-      "key": "v-70766572",
-      "path": "/router/myComponent/ui.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "方案没落实，待开放",
-          "slug": "方案没落实，待开放"
-        }
-      ]
-    },
-    {
       "title": "一些 react 上的坑总结",
       "frontmatter": {},
       "regularPath": "/router/react/keng.html",
       "relativePath": "router/react/keng.md",
       "key": "v-6cc0e312",
       "path": "/router/react/keng.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "暂无记录，待开放",
-          "slug": "暂无记录，待开放"
-        }
-      ]
-    },
-    {
-      "title": "进阶技能",
-      "frontmatter": {},
-      "regularPath": "/router/react/advance.html",
-      "relativePath": "router/react/advance.md",
-      "key": "v-6ec65cc6",
-      "path": "/router/react/advance.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "react 的进阶技能的使用及在业务中的应用",
-          "slug": "react-的进阶技能的使用及在业务中的应用"
-        },
-        {
-          "level": 3,
-          "title": "api 应用系列",
-          "slug": "api-应用系列"
-        }
-      ]
-    },
-    {
-      "title": "链式验证库",
-      "frontmatter": {},
-      "regularPath": "/router/self/verify.html",
-      "relativePath": "router/self/verify.md",
-      "key": "v-e0290490",
-      "path": "/router/self/verify.html"
-    },
-    {
-      "title": "缓存（数据类型和时效性）",
-      "frontmatter": {},
-      "regularPath": "/router/self/cache.html",
-      "relativePath": "router/self/cache.md",
-      "key": "v-ab1fcf50",
-      "path": "/router/self/cache.html"
-    },
-    {
-      "title": "react-router",
-      "frontmatter": {},
-      "regularPath": "/router/react/react-router.html",
-      "relativePath": "router/react/react-router.md",
-      "key": "v-3f6deb92",
-      "path": "/router/react/react-router.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "react-router 常用的 api 及其在业务中的小技巧",
-          "slug": "react-router-常用的-api-及其在业务中的小技巧"
-        },
-        {
-          "level": 2,
-          "title": "暂无记录，待开放",
-          "slug": "暂无记录，待开放"
-        }
-      ]
-    },
-    {
-      "title": "react-native 解决的坑",
-      "frontmatter": {},
-      "regularPath": "/router/react-native/keng.html",
-      "relativePath": "router/react-native/keng.md",
-      "key": "v-56b975b6",
-      "path": "/router/react-native/keng.html",
       "headers": [
         {
           "level": 2,
@@ -291,6 +205,49 @@ export const siteData = {
       ]
     },
     {
+      "title": "react-router",
+      "frontmatter": {},
+      "regularPath": "/router/react/react-router.html",
+      "relativePath": "router/react/react-router.md",
+      "key": "v-3f6deb92",
+      "path": "/router/react/react-router.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-router 常用的 api 及其在业务中的小技巧",
+          "slug": "react-router-常用的-api-及其在业务中的小技巧"
+        },
+        {
+          "level": 2,
+          "title": "暂无记录，待开放",
+          "slug": "暂无记录，待开放"
+        }
+      ]
+    },
+    {
+      "title": "进阶技能",
+      "frontmatter": {},
+      "regularPath": "/router/react-native/advance.html",
+      "relativePath": "router/react-native/advance.md",
+      "key": "v-7997d190",
+      "path": "/router/react-native/advance.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-native 的进阶技能的使用及在业务中的应用",
+          "slug": "react-native-的进阶技能的使用及在业务中的应用"
+        }
+      ]
+    },
+    {
+      "title": "链式验证库",
+      "frontmatter": {},
+      "regularPath": "/router/self/verify.html",
+      "relativePath": "router/self/verify.md",
+      "key": "v-e0290490",
+      "path": "/router/self/verify.html"
+    },
+    {
       "title": "高性能 vuex 数据刷新保持",
       "frontmatter": {},
       "regularPath": "/router/self/vuex-keep-data.html",
@@ -305,6 +262,36 @@ export const siteData = {
       "relativePath": "router/ts/advance.md",
       "key": "v-73bf3db8",
       "path": "/router/ts/advance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "暂无记录，待开放",
+          "slug": "暂无记录，待开放"
+        }
+      ]
+    },
+    {
+      "title": "ts在react中的使用",
+      "frontmatter": {},
+      "regularPath": "/router/ts/react.html",
+      "relativePath": "router/ts/react.md",
+      "key": "v-6f3147d8",
+      "path": "/router/ts/react.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "暂无记录，待开放",
+          "slug": "暂无记录，待开放"
+        }
+      ]
+    },
+    {
+      "title": "ts 在 vue 中的使用",
+      "frontmatter": {},
+      "regularPath": "/router/ts/vue.html",
+      "relativePath": "router/ts/vue.md",
+      "key": "v-77628990",
+      "path": "/router/ts/vue.html",
       "headers": [
         {
           "level": 2,
@@ -339,36 +326,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "ts 在 vue 中的使用",
-      "frontmatter": {},
-      "regularPath": "/router/ts/vue.html",
-      "relativePath": "router/ts/vue.md",
-      "key": "v-77628990",
-      "path": "/router/ts/vue.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "暂无记录，待开放",
-          "slug": "暂无记录，待开放"
-        }
-      ]
-    },
-    {
-      "title": "ts在react中的使用",
-      "frontmatter": {},
-      "regularPath": "/router/ts/react.html",
-      "relativePath": "router/ts/react.md",
-      "key": "v-6f3147d8",
-      "path": "/router/ts/react.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "暂无记录，待开放",
-          "slug": "暂无记录，待开放"
-        }
-      ]
-    },
-    {
       "title": "vue 组件高级进阶",
       "frontmatter": {},
       "regularPath": "/router/vue/component.html",
@@ -385,6 +342,16 @@ export const siteData = {
           "level": 3,
           "title": "1、不为人知的作用域插槽（Scoped Slots）",
           "slug": "_1、不为人知的作用域插槽（scoped-slots）"
+        },
+        {
+          "level": 3,
+          "title": "2、函数式组件",
+          "slug": "_2、函数式组件"
+        },
+        {
+          "level": 3,
+          "title": "3、插件方式",
+          "slug": "_3、插件方式"
         }
       ]
     },
@@ -424,12 +391,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "vue-cli3 配置",
+      "title": "vue3.0",
       "frontmatter": {},
-      "regularPath": "/router/webpack/vue-cli3.html",
-      "relativePath": "router/webpack/vue-cli3.md",
-      "key": "v-52c53d9c",
-      "path": "/router/webpack/vue-cli3.html",
+      "regularPath": "/router/vue/vue3.0.html",
+      "relativePath": "router/vue/vue3.0.md",
+      "key": "v-0c67f69c",
+      "path": "/router/vue/vue3.0.html",
       "headers": [
         {
           "level": 2,
@@ -439,12 +406,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "vue3.0",
+      "title": "vuex",
       "frontmatter": {},
-      "regularPath": "/router/vue/vue3.0.html",
-      "relativePath": "router/vue/vue3.0.md",
-      "key": "v-0c67f69c",
-      "path": "/router/vue/vue3.0.html",
+      "regularPath": "/router/vue/vuex.html",
+      "relativePath": "router/vue/vuex.md",
+      "key": "v-7b738f12",
+      "path": "/router/vue/vuex.html",
       "headers": [
         {
           "level": 2,
@@ -469,17 +436,60 @@ export const siteData = {
       ]
     },
     {
-      "title": "vuex",
+      "title": "vue-cli3 配置",
       "frontmatter": {},
-      "regularPath": "/router/vue/vuex.html",
-      "relativePath": "router/vue/vuex.md",
-      "key": "v-7b738f12",
-      "path": "/router/vue/vuex.html",
+      "regularPath": "/router/webpack/vue-cli3.html",
+      "relativePath": "router/webpack/vue-cli3.md",
+      "key": "v-52c53d9c",
+      "path": "/router/webpack/vue-cli3.html",
       "headers": [
         {
           "level": 2,
           "title": "暂无记录，待开放",
           "slug": "暂无记录，待开放"
+        }
+      ]
+    },
+    {
+      "title": "缓存（数据类型和时效性）",
+      "frontmatter": {},
+      "regularPath": "/router/self/cache.html",
+      "relativePath": "router/self/cache.md",
+      "key": "v-ab1fcf50",
+      "path": "/router/self/cache.html"
+    },
+    {
+      "title": "进阶技能",
+      "frontmatter": {},
+      "regularPath": "/router/react/advance.html",
+      "relativePath": "router/react/advance.md",
+      "key": "v-6ec65cc6",
+      "path": "/router/react/advance.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "react 的进阶技能的使用及在业务中的应用",
+          "slug": "react-的进阶技能的使用及在业务中的应用"
+        },
+        {
+          "level": 3,
+          "title": "api 应用系列",
+          "slug": "api-应用系列"
+        }
+      ]
+    },
+    {
+      "title": "mock 教程",
+      "frontmatter": {},
+      "regularPath": "/router/other/mock.html",
+      "relativePath": "router/other/mock.md",
+      "key": "v-6a841b52",
+      "path": "/router/other/mock.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue-cli3 搭建的 mock",
+          "slug": "vue-cli3-搭建的-mock"
         }
       ]
     }
