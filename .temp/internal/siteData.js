@@ -30,12 +30,12 @@ export const siteData = {
       "path": "/router/base/test2.html"
     },
     {
-      "title": "测试案例4",
+      "title": "测试案例3",
       "frontmatter": {},
-      "regularPath": "/router/base/test4.html",
-      "relativePath": "router/base/test4.md",
-      "key": "v-0147d990",
-      "path": "/router/base/test4.html"
+      "regularPath": "/router/base/test3.html",
+      "relativePath": "router/base/test3.md",
+      "key": "v-7753ac50",
+      "path": "/router/base/test3.html"
     },
     {
       "title": "自己的 ui 组件库",
@@ -53,12 +53,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "测试案例3",
+      "title": "测试案例4",
       "frontmatter": {},
-      "regularPath": "/router/base/test3.html",
-      "relativePath": "router/base/test3.md",
-      "key": "v-7753ac50",
-      "path": "/router/base/test3.html"
+      "regularPath": "/router/base/test4.html",
+      "relativePath": "router/base/test4.md",
+      "key": "v-0147d990",
+      "path": "/router/base/test4.html"
     },
     {
       "title": "Home",
@@ -112,12 +112,29 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "测试案例1",
+      "title": "axios 进阶",
       "frontmatter": {},
-      "regularPath": "/router/base/test1.html",
-      "relativePath": "router/base/test1.md",
-      "key": "v-4e4a5718",
-      "path": "/router/base/test1.html"
+      "regularPath": "/router/other/axios.html",
+      "relativePath": "router/other/axios.md",
+      "key": "v-1809403c",
+      "path": "/router/other/axios.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "封装请求方法",
+          "slug": "封装请求方法"
+        },
+        {
+          "level": 3,
+          "title": "上传文件（支持获取进度）",
+          "slug": "上传文件（支持获取进度）"
+        },
+        {
+          "level": 3,
+          "title": "防止同时间多次请求",
+          "slug": "防止同时间多次请求"
+        }
+      ]
     },
     {
       "title": "react-native 解决的坑",
@@ -150,29 +167,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "axios 进阶",
+      "title": "测试案例1",
       "frontmatter": {},
-      "regularPath": "/router/other/axios.html",
-      "relativePath": "router/other/axios.md",
-      "key": "v-1809403c",
-      "path": "/router/other/axios.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "封装请求方法",
-          "slug": "封装请求方法"
-        },
-        {
-          "level": 3,
-          "title": "上传文件（支持获取进度）",
-          "slug": "上传文件（支持获取进度）"
-        },
-        {
-          "level": 3,
-          "title": "防止同时间多次请求",
-          "slug": "防止同时间多次请求"
-        }
-      ]
+      "regularPath": "/router/base/test1.html",
+      "relativePath": "router/base/test1.md",
+      "key": "v-4e4a5718",
+      "path": "/router/base/test1.html"
     },
     {
       "title": "一些 react 上的坑总结",
@@ -225,27 +225,27 @@ export const siteData = {
       ]
     },
     {
-      "title": "进阶技能",
-      "frontmatter": {},
-      "regularPath": "/router/react-native/advance.html",
-      "relativePath": "router/react-native/advance.md",
-      "key": "v-7997d190",
-      "path": "/router/react-native/advance.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "react-native 的进阶技能的使用及在业务中的应用",
-          "slug": "react-native-的进阶技能的使用及在业务中的应用"
-        }
-      ]
-    },
-    {
       "title": "链式验证库",
       "frontmatter": {},
       "regularPath": "/router/self/verify.html",
       "relativePath": "router/self/verify.md",
       "key": "v-e0290490",
       "path": "/router/self/verify.html"
+    },
+    {
+      "title": "mock 教程",
+      "frontmatter": {},
+      "regularPath": "/router/other/mock.html",
+      "relativePath": "router/other/mock.md",
+      "key": "v-6a841b52",
+      "path": "/router/other/mock.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "vue-cli3 搭建的 mock",
+          "slug": "vue-cli3-搭建的-mock"
+        }
+      ]
     },
     {
       "title": "高性能 vuex 数据刷新保持",
@@ -461,6 +461,21 @@ export const siteData = {
     {
       "title": "进阶技能",
       "frontmatter": {},
+      "regularPath": "/router/react-native/advance.html",
+      "relativePath": "router/react-native/advance.md",
+      "key": "v-7997d190",
+      "path": "/router/react-native/advance.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "react-native 的进阶技能的使用及在业务中的应用",
+          "slug": "react-native-的进阶技能的使用及在业务中的应用"
+        }
+      ]
+    },
+    {
+      "title": "进阶技能",
+      "frontmatter": {},
       "regularPath": "/router/react/advance.html",
       "relativePath": "router/react/advance.md",
       "key": "v-6ec65cc6",
@@ -475,21 +490,6 @@ export const siteData = {
           "level": 3,
           "title": "api 应用系列",
           "slug": "api-应用系列"
-        }
-      ]
-    },
-    {
-      "title": "mock 教程",
-      "frontmatter": {},
-      "regularPath": "/router/other/mock.html",
-      "relativePath": "router/other/mock.md",
-      "key": "v-6a841b52",
-      "path": "/router/other/mock.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "vue-cli3 搭建的 mock",
-          "slug": "vue-cli3-搭建的-mock"
         }
       ]
     }

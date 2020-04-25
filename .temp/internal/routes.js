@@ -29,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-0147d990",
-    path: "/router/base/test4.html",
+    name: "v-7753ac50",
+    path: "/router/base/test3.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0147d990").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7753ac50").then(next)
     },
   },
   {
@@ -45,11 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-7753ac50",
-    path: "/router/base/test3.html",
+    name: "v-0147d990",
+    path: "/router/base/test4.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7753ac50").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0147d990").then(next)
     },
   },
   {
@@ -65,11 +65,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-4e4a5718",
-    path: "/router/base/test1.html",
+    name: "v-1809403c",
+    path: "/router/other/axios.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4e4a5718").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1809403c").then(next)
     },
   },
   {
@@ -89,11 +89,11 @@ export const routes = [
     },
   },
   {
-    name: "v-1809403c",
-    path: "/router/other/axios.html",
+    name: "v-4e4a5718",
+    path: "/router/base/test1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1809403c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4e4a5718").then(next)
     },
   },
   {
@@ -121,19 +121,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7997d190",
-    path: "/router/react-native/advance.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7997d190").then(next)
-    },
-  },
-  {
     name: "v-e0290490",
     path: "/router/self/verify.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-e0290490").then(next)
+    },
+  },
+  {
+    name: "v-6a841b52",
+    path: "/router/other/mock.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a841b52").then(next)
     },
   },
   {
@@ -241,19 +241,19 @@ export const routes = [
     },
   },
   {
+    name: "v-7997d190",
+    path: "/router/react-native/advance.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7997d190").then(next)
+    },
+  },
+  {
     name: "v-6ec65cc6",
     path: "/router/react/advance.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6ec65cc6").then(next)
-    },
-  },
-  {
-    name: "v-6a841b52",
-    path: "/router/other/mock.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a841b52").then(next)
     },
   },
   {

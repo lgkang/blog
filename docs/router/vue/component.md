@@ -7,7 +7,7 @@
 传递参数和事件
 
 ```js
-//子组件
+//子组件，抛出数据和方法
 const child = Vue.component('child', {
     template: `<ul v-for="item in items">
                     <slot
@@ -163,7 +163,7 @@ export default {
 import dialog from './dialog.vue';
 import Vue from 'vue';
 
-//
+//处理行动
 function handleAction(action) {
     if (!action) currentMsg.reject({})
     currentMsg.resolve()
@@ -239,7 +239,8 @@ await this.$dialog({
         component: myComponent,
         //组件属性
         attr: {
-          leftText: "亲爱的皮皮",
+          // 1-2
+          leftText: this.text,
           es: 1
         },
         listeners: {
@@ -254,5 +255,7 @@ await this.$dialog({
 
 :::warning
 1-1、注意，能用 click 是子组件\$emit('click')才能够使用，因为 click 是直接绑定在组件上无法生效，'click.native'也无法生效
+
+1-2、由于是在直接传组件进插件，即使父元素改变 this.text，也会导致 myComponent 无法更新
 :::
-**_优点_**：使用比其他组件方便，灵活性高
+**_优点：使用比其他组件方便，也可插入其他组件，灵活性更高_**
